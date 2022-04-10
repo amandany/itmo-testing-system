@@ -62,11 +62,28 @@
 
             }
         }
+
+        .avatar-wrapper {
+            width: 140px;
+            height: 140px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: rgb(211, 211, 211);
+
+            .avatar {
+                max-height: 140px;
+                max-width: 140px;
+            }
+        }
     }
 
     .content {
         position: relative;
         left: 300px;
         padding: 20px;
+        height: 100%;
+        width: calc(100% - 300px);
     }
 }

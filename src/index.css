@@ -69,9 +69,17 @@ body {
   /* font-family: Righteous-Regular; */
 
 }
-.itmo-h1{
+
+.colors {
+  background: #3c70ff;
+  box-shadow: 0px 0px 15px 0px rgba(34, 60, 80, 0.2);
+
+}
+
+.itmo-h1 {
   font-family: "Righteous-Regular";
 }
+
 a {
   color: inherit;
   /* blue colors for links too */

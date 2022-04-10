@@ -6,9 +6,7 @@ const LogOut = () => {
   useEffect(() => {
     localStorage.clear();
     navigate("/login");
-    return () => {};
   }, []);
-
   return <></>;
 };
 
