@@ -38,15 +38,7 @@
   src: local("PressStart2P-Regular"), url('./fonts/PressStart2P-Regular.ttf') format("ttf");
 }
 
-@font-face {
-  font-family: 'Ultra';
-  src: local("Ultra-Regular"), url('./fonts/Ultra-Regular.ttf') format("truetype");
-}
 
-@font-face {
-  font-family: 'AlfaSlabOne-Regular';
-  src: local("AlfaSlabOne-Regular"), url('./fonts/AlfaSlabOne-Regular.ttf') format("truetype");
-}
 
 @font-face {
   font-family: 'Righteous-Regular';

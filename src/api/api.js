@@ -67,3 +67,8 @@ export const SendUserAnswerImg = async (image, token, questionId) => {
 export const SendRemoveAnswer = async (questionId, token) => {
   return await FetchReq(`/Testing/RemoveAnswer?questionId=${questionId}`, token);
 };
+
+export const SendFinishSession = async (token) => {
+  return await FetchReq("/Testing/FinishSession", token).then((response) => response.json());
+};
+
